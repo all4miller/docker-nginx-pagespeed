@@ -10,3 +10,4 @@ services:
     env_file: .env
     volumes:
       - ./tmp/cache/nginx:/var/cache/nginx
+      - ./ssl:/etc/ssl
