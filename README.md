@@ -46,7 +46,7 @@ as well as:
 
 -   vhosts stats page
 -   default host with health check
--   [FastCGI file cache](https://www.nginx.com/blog/9-tips-for-improving-wordpress-performance-with-nginx/)
+-   [FastCGI file cache](https://www.nginx.com/appcache/9-tips-for-improving-wordpress-performance-with-nginx/)
 -   [Redis memory cache](https://easyengine.io/wordpress-nginx/tutorials/single-site/redis_cache-with-conditional-purging/)
 
 Nginx is configured by default for high performance, multi cluster production environment, but can be easily adjusted with environment variables.
