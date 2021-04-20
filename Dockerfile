@@ -135,7 +135,11 @@ RUN rm -rf /var/lib/apt/lists/* && rm -rf /tmp/* && \
 	ln -sf /dev/stderr /var/log/nginx/error.log && \
 	# Make PageSpeed cache writable
 	mkdir -p /var/cache/ngx_pagespeed && \
-	chmod -R o+wr /var/cache/ngx_pagespeed
+	chmod -R o+wr /var/cache/ngx_pagespeed && \
+	# Make Nninx cache writable
+	mkdir -p /var/cache/nginx && \
+	chmod -R o+wr /var/cache/nginx
+
 
 ### MaxMind not longer supports database downloads
 ### so upload them yourself into /usr/share/GeoIP2 folder
